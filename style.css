@@ -1,0 +1,99 @@
+body {
+    font-family: 'Balsamiq Sans',sans-serif;
+    text-align: center;
+    background-color: #2892D7;
+    margin: 0;
+    padding: 0;
+    background: url(./assets/bg-blur.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#title {
+    font-family: 'Aboreto', sans-serif;
+    font-size: 2.5rem;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    margin-bottom: 20px;
+    margin-left: 10rem;
+}
+
+label {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 450px;
+    width: 50%;
+    margin: 2rem 10rem;
+    border-radius: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 10px;
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#itinerary {
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    #map {
+        margin: 0 auto;
+    }
+
+    #container {
+        display: block;
+    }
+
+    .form-container {
+        margin: 1rem auto;
+        height: 30rem;
+    }
+
+    #destination-form {
+        height: 20rem;
+        width: 40rem;
+    }
+  }

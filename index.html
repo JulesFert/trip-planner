@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip Planner</title>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=abeezee:400|abhaya-libre:800|aboreto:400|aclonica:400|alata:400|balsamiq-sans:400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+          <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="dist/test.js"></script>
+</head>
+<body>
+<h1 id="title">Trip Planner</h1>
+<h2>Alors, par où commence votre voyage ?</h2>
+
+<div id="container">
+
+    <div class="form-container">
+        <form id="destination-form">
+            <label for="destination-name" id="destination-name-label">Destination</label>
+            <input id="autocomplete" type="text" placeholder="Entrer un lieu" required>
+            <label for="arrival-date" id="arrival-date-label">Date d'arrivée</label>
+            <input type="date" id="arrival-date" required>
+            <label for="stay-days" id="stay-date-label">Durée du séjour</label>
+            <input type="number" id="stay-days" placeholder="Nombre de jours" required>
+            <button type="submit">Ajouter destination</button>
+        </form>
+    </div>
+
+    <div id="map">
+        
+    </div>
+
+</div>
+<h2 id="itineraire">Itinéraire</h2>
+<ul id="itinerary"></ul>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtIASqGgKU7lwU_UBIbwVe2dKqvZZgovw&libraries=places&callback=initMap"
+        async defer loading="lazy"></script>
+
+</body>
+</html>

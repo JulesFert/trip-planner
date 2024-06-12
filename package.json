@@ -1,0 +1,22 @@
+{
+  "name": "test-technique-wannup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google.maps": "^3.55.9",
+    "@types/googlemaps": "^3.43.3",
+    "@types/leaflet": "^1.9.12",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5"
+    },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
