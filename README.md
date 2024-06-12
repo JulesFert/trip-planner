@@ -6,4 +6,8 @@ importer Leaflet dans mon fichier TS
 puis 
 ```npm install --save-dev @types/leaflet```
 
-```npm install --save-dev @types/google.maps```
+
+## Pour lancer le projet REACT (non finalisé)
+
+- Se placer dans le dossier "trip-planner"
+- Effectuer un ```npm start``` afin de lancer le serveur local
